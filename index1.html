@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head{
+
+    background-color:gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    list-style-type: none;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    color: black;
+}
+
+
+@media(max-width:800px){
+    .items{
+        display: flex;
+    justify-content: space-around;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+    <header class="head">
+    <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=626&ext=jpg&ga=GA1.1.1984022572.1719477610&semt=ais_hybrid" alt="" width="100px">
+    <ul class="items">
+        <li>home</li>
+        <li>Signup</li>
+        <li>Contact us</li>
+    </ul>
+    </header>
+    </nav>
+</body>
+</html>
